@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "41ee6b485803ff8f99a197bedef5ac12",
+    "revision": "4c15b17b7f0e447a1723c3bcf8d00de9",
     "url": "/image-gallary_reactjs-pixabay_api/index.html"
   },
   {
-    "revision": "2e7feca4725e222a730f",
+    "revision": "087bc233c1ca2621d037",
     "url": "/image-gallary_reactjs-pixabay_api/static/css/main.827a3f52.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/image-gallary_reactjs-pixabay_api/static/js/2.61463324.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2e7feca4725e222a730f",
-    "url": "/image-gallary_reactjs-pixabay_api/static/js/main.6d45c648.chunk.js"
+    "revision": "087bc233c1ca2621d037",
+    "url": "/image-gallary_reactjs-pixabay_api/static/js/main.9ff245c4.chunk.js"
   },
   {
     "revision": "b8ba9ba3fcf01d099c90",
