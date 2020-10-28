@@ -20,7 +20,7 @@ function App() {
   }, [term]);
   return (
     <div className="container mx-auto">
-      <div className='toptxt'><h4>Created Using  <a href='https://pixabay.com/'><img className='logo' src={logo} /></a> API</h4></div>
+      <h1 className='title'>IMAGE SEARCH</h1>
       <ImageSearch searchText={(text) => setTerm(text)} />
 
       {!isLoading && images.length === 0 && <h1 className='text-5xl text-center mx-auto mt-32'>No Images Found For The Term '{term}'</h1>}
@@ -40,7 +40,7 @@ function App() {
 
 
         </div>}
-
+      <div className='toptxt'><h4>Powered by  <a href='https://pixabay.com/'><img className='logo' src={logo} /></a> API</h4></div>
     </div>
   );
 }

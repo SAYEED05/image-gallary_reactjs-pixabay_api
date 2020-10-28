@@ -7,10 +7,10 @@ const ImageCard = ({ image }) => {
     /*     const tagclick = 'https://pixabay.com/images/search/' + tags */
     return (
         <div className="wid rounded overflow-hidden shadow-lg">
-            <a href={image.largeImageURL} > <img src={image.webformatURL} alt="" className="w-full" /></a>
+            <a target="_blank" href={image.largeImageURL} > <img src={image.webformatURL} alt="" className="custimgsty" /></a>
             <div className="px-6 py-4">
-                <div className="font-bold  text-black-500 text-xl mb-2">
-                    PHOTO BY <a target="_blank" href={user}><span className='italic userlink text-teal-400'>{image.user}</span></a>
+                <div className=" italic  text-black-500 text-xl mb-2">
+                    photo by <a target="_blank" href={user}><span className='italic userlink text-teal-400'>{image.user}</span></a>
                 </div>
                 <ul>
                     <li>
@@ -18,12 +18,12 @@ const ImageCard = ({ image }) => {
                         {image.views}
                     </li>
                     <li>
-                        <strong><i class="fas fa-download"></i> </strong>
-                        {image.downloads}
-                    </li>
-                    <li>
                         <strong><i class="far fa-thumbs-up"></i> </strong>
                         {image.likes}
+                    </li>
+                    <li>
+                        <strong><i class="far fa-heart"></i> </strong>
+                        {image.favorites}
                     </li>
                 </ul>
             </div>
